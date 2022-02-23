@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
             children: [
               Image.asset(
                 "assets/images/MyPic.jpg",
-                height: 130,
+                height: 120,
               ),
               SizedBox(height: 10),
               TextField(
@@ -118,7 +118,7 @@ class _HomeState extends State<Home> {
                 child: Text(
                   "Already have an Account ?",
                   style: TextStyle(
-                    fontSize: 16,
+                    fontSize: 14,
                   ),
                 ),
               ),
@@ -126,7 +126,7 @@ class _HomeState extends State<Home> {
                 alignment: Alignment.centerRight,
                 child: Text(
                   "Login",
-                  style: TextStyle(fontSize: 16, color: Colors.blueGrey),
+                  style: TextStyle(fontSize: 20, color: Colors.blueGrey),
                 ),
               ),
             ],
